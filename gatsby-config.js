@@ -10,6 +10,7 @@ module.exports = {
     author: `@developedByLuan`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     //needs to be the fitst
@@ -63,7 +64,7 @@ module.exports = {
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME, 
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
         chunkSize: 10000,
         enablePartialUpdates: true,
