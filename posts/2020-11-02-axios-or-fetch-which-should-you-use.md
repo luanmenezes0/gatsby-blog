@@ -6,7 +6,7 @@ description: Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis,
   consequat odio. Pra lá , depois divoltis porris, paradis.
 date: 2020-11-02 04:14:41
 thumbnail: assets/img/london-aerial-cityscape-river-thames_1.jpg
-category: javascript
+category: JS
 background: "#D6BA32"
 ---
 
